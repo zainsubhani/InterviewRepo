@@ -1,65 +1,47 @@
-/* BooksList.css */
+/* HomePage.css */
 
 /* Main container styling */
-.books-container {
+.home-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  background-color: #f9fafb; /* Light background */
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #f9fafb; /* Light background color */
+  text-align: center;
   padding: 20px;
   color: #374151; /* Neutral dark text color */
 }
 
 /* Heading styling */
-.books-heading {
-  font-size: 2rem;
+.home-heading {
+  font-size: 3rem; /* Large font size for the heading */
   font-weight: bold;
-  color: #2563eb; /* Blue heading color */
-  margin-bottom: 20px;
+  color: #2563eb; /* Blue accent color */
+  margin-bottom: 30px; /* Spacing below the heading */
 }
 
-/* Books list styling */
-.books-list {
-  list-style: none; /* Remove bullets */
-  padding: 0;
-  margin: 0;
-  display: grid;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(250px, 1fr)
-  ); /* Responsive grid */
-  gap: 15px; /* Spacing between items */
-  width: 100%;
-  max-width: 800px; /* Limit width of the grid */
-}
-
-/* Individual book item */
-.book-item {
-  background: #ffffff; /* White background for each item */
-  padding: 15px;
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  text-align: center;
-}
-
-/* Hover effect for book items */
-.book-item:hover {
-  transform: translateY(-5px); /* Lift the item on hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+/* Navigation container styling */
+.home-nav {
+  display: flex;
+  flex-wrap: wrap; /* Wrap links to the next row if needed */
+  justify-content: center;
+  gap: 15px; /* Spacing between navigation links */
 }
 
 /* Link styling */
-.book-link {
+.home-link {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #2563eb; /* Blue color for links */
+  color: #ffffff; /* White text for links */
+  background-color: #2563eb; /* Blue background for buttons */
+  padding: 10px 20px;
+  border-radius: 8px; /* Rounded corners */
   text-decoration: none; /* Remove underline */
-  transition: color 0.2s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.book-link:hover {
-  color: #1e40af; /* Darker blue on hover */
+.home-link:hover {
+  background-color: #1e40af; /* Darker blue on hover */
+  transform: translateY(-3px); /* Slight lift on hover */
 }

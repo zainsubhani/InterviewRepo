@@ -1,24 +1,26 @@
 import { Link } from "react-router-dom";
-import mockData from "../constant/mockdata.json";
-import "../styles/HomePage.css";
+import "../styles/HomePage.css"; // Import CSS file
 
-const BooksList = () => {
-  const { books } = mockData; // Destructure books array from the imported JSON
-
+const HomePage = () => {
   return (
-    <div className="books-container">
-      <h2 className="books-heading">Books Catalog</h2>
-      <ul className="books-list">
-        {books.map((book) => (
-          <li key={book.id} className="book-item">
-            <Link to={`/books/${book.id}`} className="book-link">
-              {book.title}
-            </Link>
-          </li>
-        ))}
-      </ul>
+    <div className="home-container">
+      <h1 className="home-heading">Welcome to Book Store</h1>
+      <nav className="home-nav">
+        <Link to="/books" className="home-link">
+          Books
+        </Link>
+        <Link to="/about" className="home-link">
+          About
+        </Link>
+        <Link to="/contact" className="home-link">
+          Contact
+        </Link>
+        <Link to="/admin" className="home-link">
+          Admin
+        </Link>
+      </nav>
     </div>
   );
 };
 
-export default BooksList;
+export default HomePage;

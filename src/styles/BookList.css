@@ -1,0 +1,75 @@
+/* BooksList.css */
+
+/* Main container for the books */
+.books-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f9fafb; /* Light background */
+  padding: 20px;
+  text-align: center;
+  color: #374151; /* Neutral dark text color */
+}
+
+/* Heading styling */
+.books-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2563eb; /* Blue accent color */
+  margin-bottom: 20px;
+}
+
+/* Books list styling */
+.books-list {
+  list-style: none; /* Remove bullets */
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  ); /* Responsive grid */
+  gap: 15px; /* Spacing between items */
+  width: 100%;
+  max-width: 800px; /* Limit the width of the grid */
+}
+
+/* Individual book item */
+.book-item {
+  background: #ffffff; /* White background for each item */
+  padding: 15px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: left;
+}
+
+/* Hover effect for book items */
+.book-item:hover {
+  transform: translateY(-5px); /* Lift the item on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+}
+
+/* Link styling */
+.book-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2563eb; /* Blue color for links */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.2s ease;
+}
+
+.book-link:hover {
+  color: #1e40af; /* Darker blue on hover */
+}
+
+/* Author styling inside the link */
+.book-author {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: #6b7280; /* Gray text for author */
+  margin-top: 5px;
+}
