@@ -1,0 +1,48 @@
+/* Layout.css */
+
+/* Container for the entire layout */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #f9fafb; /* Light background */
+  color: #374151; /* Neutral dark text */
+  font-family: Arial, sans-serif; /* Clean font */
+}
+
+/* Header styling */
+.layout-header {
+  background-color: #2563eb; /* Blue background for header */
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Navigation styling */
+.layout-nav {
+  display: flex;
+  justify-content: center; /* Center navigation links */
+  gap: 15px; /* Space between links */
+}
+
+/* Navigation link styling */
+.layout-link {
+  color: #ffffff; /* White text for links */
+  text-decoration: none; /* Remove underline */
+  font-size: 1rem; /* Medium font size */
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.layout-link:hover {
+  color: #d1e7ff; /* Light blue color on hover */
+}
+
+/* Main content styling */
+.layout-main {
+  flex: 1; /* Take up remaining space */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff; /* White background for main content */
+}

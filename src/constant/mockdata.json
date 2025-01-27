@@ -1,0 +1,94 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "React Fundamentals",
+      "author": "Jane Doe",
+      "description": "Learn the basics of React."
+    },
+    {
+      "id": 2,
+      "title": "Advanced JavaScript",
+      "author": "John Smith",
+      "description": "Deep dive into JavaScript."
+    },
+    {
+      "id": 3,
+      "title": "Mastering TypeScript",
+      "author": "Alice Johnson",
+      "description": "Comprehensive guide to TypeScript for building scalable applications."
+    },
+    {
+      "id": 4,
+      "title": "The Road to GraphQL",
+      "author": "Chris Davis",
+      "description": "Learn how to use GraphQL for building modern APIs."
+    },
+    {
+      "id": 5,
+      "title": "Node.js Design Patterns",
+      "author": "Mike Brown",
+      "description": "Best practices for writing scalable and maintainable Node.js applications."
+    },
+    {
+      "id": 6,
+      "title": "JavaScript: The Good Parts",
+      "author": "Douglas Crockford",
+      "description": "A deep dive into the best features of JavaScript."
+    },
+    {
+      "id": 7,
+      "title": "You Don't Know JS Yet",
+      "author": "Kyle Simpson",
+      "description": "A detailed exploration of JavaScript concepts and quirks."
+    },
+    {
+      "id": 8,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "description": "A handbook of agile software craftsmanship."
+    },
+    {
+      "id": 9,
+      "title": "Eloquent JavaScript",
+      "author": "Marijn Haverbeke",
+      "description": "A modern introduction to programming using JavaScript."
+    },
+    {
+      "id": 10,
+      "title": "Pro Git",
+      "author": "Scott Chacon",
+      "description": "A comprehensive guide to using Git for version control."
+    },
+    {
+      "id": 11,
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt and David Thomas",
+      "description": "Essential tips and techniques for software developers."
+    },
+    {
+      "id": 12,
+      "title": "Python Crash Course",
+      "author": "Eric Matthes",
+      "description": "A hands-on, project-based introduction to Python."
+    },
+    {
+      "id": 13,
+      "title": "Fluent Python",
+      "author": "Luciano Ramalho",
+      "description": "A practical guide to writing idiomatic Python code."
+    },
+    {
+      "id": 14,
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen",
+      "description": "A comprehensive book on algorithms and their applications."
+    },
+    {
+      "id": 15,
+      "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "author": "Erich Gamma",
+      "description": "A classic guide to software design patterns."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+/* Admin.css */
+
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #1f2937; /* Dark background for admin panel */
+  color: #f9fafb; /* Light text color for contrast */
+  padding: 20px;
+}
+
+.admin-heading {
+  font-size: 2.5rem; /* Large font size for heading */
+  font-weight: bold;
+  color: #34d399; /* Green accent color */
+  margin-bottom: 20px;
+}
+
+.admin-description {
+  font-size: 1.25rem; /* Medium-large font size for text */
+  line-height: 1.8; /* Better readability */
+  text-align: center; /* Center-align the text */
+  max-width: 600px; /* Limit width for the paragraph */
+}

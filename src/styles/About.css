@@ -1,0 +1,26 @@
+/* About.css */
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #f9fafb; /* Light background color */
+  color: #374151; /* Neutral dark text color */
+  padding: 20px;
+}
+
+.about-heading {
+  font-size: 2.5rem; /* Larger font size for heading */
+  font-weight: bold;
+  color: #2563eb; /* Blue color for heading */
+  margin-bottom: 20px;
+}
+
+.about-description {
+  font-size: 1.25rem; /* Medium-large font size for text */
+  line-height: 1.8; /* Spaced-out text for better readability */
+  text-align: center; /* Center-align the text */
+  max-width: 600px; /* Limit the width of the paragraph */
+}

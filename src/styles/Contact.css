@@ -1,0 +1,87 @@
+/* Contact.css */
+
+/* Container for the contact form */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #f9fafb; /* Light background */
+  padding: 20px;
+  color: #374151; /* Neutral dark text color */
+}
+
+/* Heading styling */
+.contact-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2563eb; /* Blue color for the heading */
+  margin-bottom: 20px;
+}
+
+/* Contact form styling */
+.contact-form {
+  background: #ffffff; /* White background for the form */
+  padding: 20px;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 100%;
+  max-width: 500px; /* Limit the width */
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Form label styling */
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+/* Input and textarea styling */
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #d1d5db; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  background: #f9fafb; /* Slightly off-white background */
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  border-color: #2563eb; /* Blue border on focus */
+}
+
+/* Textarea specific styling */
+.form-textarea {
+  height: 100px;
+  resize: none; /* Disable resizing */
+}
+
+/* Submit button styling */
+.form-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff; /* White text */
+  background: #2563eb; /* Blue background */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.form-button:hover {
+  background-color: #1e40af; /* Darker blue on hover */
+}
